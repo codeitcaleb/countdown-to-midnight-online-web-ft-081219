@@ -8,9 +8,11 @@ def countdown(integer)
   while counter == integer do
     puts "#{integer}SECOND(S)!"
     counter -= 1
-  end  
-  when counter == 0 
-  puts "HAPPY NEW YEAR!"
+  end
+  
+  if counter == 0 
+    puts "HAPPY NEW YEAR!"
+  end
 end
   
 
