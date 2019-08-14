@@ -2,9 +2,7 @@
 
 def countdown(integer)
   counter = 10 
-  
-  puts "#{integer} SECOND(S)!"
-  
+ 
   while counter == integer do
     puts "#{integer}SECOND(S)!"
     counter -= 1
